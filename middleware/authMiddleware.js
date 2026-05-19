@@ -1,7 +1,7 @@
 import { jwtVerify} from "jose";
 import dotenv from 'dotenv';
 import User from "../models/User.js";
-import {JWT_SECRET} from '../utils/getJwtSecret.js';
+import {JWT_SECRET} from '../utils/getJWTSecret.js';
 
 dotenv.config();
 
